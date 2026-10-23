@@ -1,0 +1,73 @@
+# Project 01 — Customer Feedback Intelligence
+## Task: Generate a Synthetic Customer Reviews Dataset
+
+### Role
+Act as a Customer Experience (CX) Analyst and Synthetic Data Specialist working with a café located in Adelaide, South Australia.
+
+### Context
+I am developing a practical AI portfolio project called **Customer Feedback Intelligence** as part of my AI Literacy and Critical Thinking studies.
+
+The goal is to demonstrate how generative AI can help businesses analyse customer feedback, identify recurring issues, and support data-driven decisions.
+
+I need a realistic synthetic dataset to analyse later using NotebookLM and other AI tools.
+
+### Task
+Generate **30 fictional customer reviews written in Australian English** for a café in Adelaide.
+
+The reviews must represent realistic customer experiences and reflect common challenges in the Australian hospitality industry.
+
+### Dataset requirements
+
+Include a diverse mix of customer experiences:
+
+- 10 generally positive reviews.
+- 10 generally negative reviews.
+- 10 mixed or neutral reviews.
+
+Cover the following topics naturally:
+
+- Coffee quality and consistency.
+- Customer service and staff friendliness.
+- Waiting times during busy periods.
+- Food quality and freshness.
+- Menu prices and value for money.
+- Café atmosphere and cleanliness.
+- Dietary requirements and menu options.
+- Order accuracy.
+
+### Data structure
+
+Create a CSV file with these columns:
+
+1. `review_id` — Unique identifier from R001 to R030.
+2. `review_date` — Fictional date in YYYY-MM-DD format.
+3. `rating` — Integer from 1 to 5.
+4. `customer_review` — Review written in natural Australian English.
+
+### Important conditions
+
+- Reviews should vary in length between 15 and 65 words.
+- Use natural language, avoiding repetitive AI-generated phrasing.
+- Include realistic but fictional scenarios.
+- Include a few ambiguous reviews containing both positive and negative feedback.
+- Make ratings reasonably consistent with the review text.
+- Do not include customer names, emails, phone numbers or other personal information.
+- Do not identify an existing business.
+- Do not include sentiment labels, issue categories, conclusions or business recommendations in the dataset. These will be generated and evaluated in a separate analysis stage.
+- Randomise the order of positive, negative and mixed reviews.
+
+### Quality criteria
+
+Ensure that the dataset is realistic, varied and suitable for sentiment analysis.
+
+Do not generate 30 reviews that follow the same structure.
+
+### Output format
+
+1. Generate a downloadable UTF-8 CSV file named `customer_reviews.csv`.
+2. Ensure that all 30 rows are complete and correctly formatted.
+3. If direct file generation is unavailable, provide the complete CSV in a code block.
+4. Confirm the total number of reviews and columns.
+
+### Final instruction
+Generate only the synthetic dataset and a brief confirmation. Do not perform sentiment analysis yet.
